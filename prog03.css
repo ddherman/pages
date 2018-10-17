@@ -1,4 +1,35 @@
 input {
-	width: 4em;
+	width: 8em;
 	text-align: center;
+	background-color: yellow;
+}
+
+legend {
+	color: brown;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+fieldset {
+	width: 25em;
+	background-color: yellow;
+	border-radius: 3px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 30em;
+}
+
+tr:hover {
+	background-color: #e68a00;
+}
+
+td.label {
+	text-align: center;
+	vertical-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
 }
